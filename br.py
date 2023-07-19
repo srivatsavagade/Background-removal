@@ -16,5 +16,12 @@ def main():
                 result_image = remove(image)
                 st.image(result_image, caption='Background Removed', use_column_width=True)
 
+                # Create a download button for the background-removed image
+                download_button = st.download_button(
+                    label="Download Background Removed Image",
+                    data=result_image,
+                    file_name="background_removed.png"
+                )
+
 if __name__ == "__main__":
     main()
