@@ -1,2 +1,2 @@
 rembg
-numpy = 1.24
+numpy == 1.24
