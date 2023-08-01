@@ -1,6 +1,7 @@
 import streamlit as st
 from rembg import remove
 from PIL import Image
+import numpy as np
 import io
 
 def main():
