@@ -1,2 +1,2 @@
 rembg
-
+numba==0.51.0
