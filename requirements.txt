@@ -1,3 +1,4 @@
+rembg
 streamlit==0.87.0
 numpy==1.24.0
 numba==0.53.1
