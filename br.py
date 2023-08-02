@@ -24,7 +24,7 @@ def main():
 
                 # Create a download button for the background-removed image
                 st.download_button(
-                    label="Download Background Removed Image",
+                    label="Download",
                     data=result_image_bytes,
                     file_name="background_removed.png"
                 )
