@@ -13,7 +13,6 @@ def main():
         image = Image.open(image_file)
         st.image(image, caption='Original Image', use_column_width=True)
 
-        # Check if "Clear Cache" button is clicked
         if st.button("Remove Background"):
             with st.spinner("Removing background..."):
                 result_image = remove(image)
@@ -30,10 +29,6 @@ def main():
                     data=result_image_bytes,
                     file_name="background_removed.png"
                 )
-
-        # "Clear Cache" button to reset the uploaded image
-        if st.button("Clear Cache"):
-            st.cache.clear()
 
 if __name__ == "__main__":
     main()
