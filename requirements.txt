@@ -1,4 +1,4 @@
-python==3.9
+python==3.9.0
 numpy==1.24
 numba==0.53.1
 streamlit==0.89.0  
